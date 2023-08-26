@@ -13,15 +13,10 @@ contract Mariage
     {
         personne = msg.sender ; 
         personne2 = person;
-        isMarried = false ;
+        isMarried = true ;
     
     }
 
-    function  contractMariage (bool isMaried) public returns (bool)
-    {
-     isMaried = true;
-     return isMaried;
-    }
 }
 
 
